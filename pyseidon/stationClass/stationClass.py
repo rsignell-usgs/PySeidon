@@ -6,7 +6,7 @@ import numpy as np
 #import netCDF4 as nc
 import sys
 import os
-from utide import ut_solv, ut_reconstr
+from utide import solve, reconstruct
 from scipy.io import netcdf
 from scipy.io import savemat
 from scipy.io import loadmat

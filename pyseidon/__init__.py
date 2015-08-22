@@ -8,7 +8,7 @@ import sys
 local = os.path.dirname(__file__)
 sys.path.append(os.path.join(local,'fvcomClass'))
 sys.path.append(os.path.join(local,'adcpClass'))
-sys.path.append(os.path.join(local,'drifterClass'))
+#sys.path.append(os.path.join(local,'drifterClass'))
 sys.path.append(os.path.join(local,'stationClass'))
 sys.path.append(os.path.join(local,'tidegaugeClass'))
 sys.path.append(os.path.join(local,'validationClass'))
@@ -27,8 +27,10 @@ from utilities import *
 #print "OpenDap server connexion info:"
 
 __version__ = '1.1'
-__all__ = ["FVCOM", "ADCP", "Drifter", "TideGauge",\
-           "Validation", "Station", "utilities" ]
+#__all__ = ["FVCOM", "ADCP", "Drifter", "TideGauge",\
+#          "Validation", "Station", "utilities" ]
+__all__ = ["FVCOM", "ADCP", "TideGauge",\
+          "Validation", "Station", "utilities" ]
 __authors__ = ['Wesley Bowman, Thomas Roc, Jonathan Smith']
 __licence__ = 'GNU Affero GPL v3.0'
 __copyright__ = 'Copyright (c) 2014 EcoEnergyII'

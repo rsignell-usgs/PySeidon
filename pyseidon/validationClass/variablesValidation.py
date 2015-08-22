@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import cPickle as pickle
 import sys
 import os
-from utide import ut_solv
+from utide import solve
 import scipy.io as sio
 
 #Local import
